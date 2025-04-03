@@ -1,0 +1,8 @@
+uuid: 39694654-03d1-4d62-827a-33f847b9428d
+langcode: es
+status: true
+dependencies: {  }
+id: contenido
+label: Contenido
+description: 'Contenido datasets y conexiones'
+locked: false

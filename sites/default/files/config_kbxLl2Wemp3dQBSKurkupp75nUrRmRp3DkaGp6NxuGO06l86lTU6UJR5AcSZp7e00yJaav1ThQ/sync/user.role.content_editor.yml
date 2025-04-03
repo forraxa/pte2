@@ -1,0 +1,70 @@
+uuid: b716c084-49b9-4f58-bb57-8c4c1ddd94e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.aplicacion
+    - node.type.conexion
+    - node.type.dashboard
+    - node.type.dataset
+    - node.type.noticia
+    - node.type.organizacion
+    - node.type.recurso
+    - node.type.terminos_de_uso
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - content_translation
+    - contextual
+    - file
+    - node
+    - system
+    - taxonomy
+_core:
+  default_config_hash: Wur9kcEOwY1Jal81NssKnz3RhVJxAvBwyWQBGcA_1Go
+id: content_editor
+label: 'Content editor'
+weight: -8
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access user profiles'
+  - 'create aplicacion content'
+  - 'create conexion content'
+  - 'create content translations'
+  - 'create dashboard content'
+  - 'create dataset content'
+  - 'create noticia content'
+  - 'create recurso content'
+  - 'create terms in tags'
+  - 'delete any aplicacion content'
+  - 'delete any conexion content'
+  - 'delete any dataset content'
+  - 'delete any noticia content'
+  - 'delete any recurso content'
+  - 'delete own aplicacion content'
+  - 'delete own conexion content'
+  - 'delete own dashboard content'
+  - 'delete own dataset content'
+  - 'delete own noticia content'
+  - 'delete own recurso content'
+  - 'edit any conexion content'
+  - 'edit any dataset content'
+  - 'edit any noticia content'
+  - 'edit any recurso content'
+  - 'edit any terminos_de_uso content'
+  - 'edit own comments'
+  - 'edit own conexion content'
+  - 'edit own dashboard content'
+  - 'edit own dataset content'
+  - 'edit own noticia content'
+  - 'edit own recurso content'
+  - 'edit terms in tags'
+  - 'translate conexion node'
+  - 'translate dataset node'
+  - 'translate organizacion node'
+  - 'update content translations'
+  - 'view own unpublished content'
+  - 'view the administration theme'

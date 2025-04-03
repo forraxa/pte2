@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: 745ea9d0-33eb-4ad3-873a-250f7b96e472
+name: PTE
+mail: opendata@opendata.com
+slogan: 'Prueba tu estrategia'
+page:
+  403: ''
+  404: ''
+  front: /user/login
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: es

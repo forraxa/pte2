@@ -1,0 +1,18 @@
+uuid: 052ec129-af5d-4b5e-bb15-790356c027a5
+langcode: es
+status: true
+dependencies:
+  config:
+    - group.content_type.organizacion-group_node-dataset
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: group_content.organizacion-group_node-dataset
+target_entity_type_id: group_content
+target_bundle: organizacion-group_node-dataset
+default_langcode: site_default
+language_alterable: false

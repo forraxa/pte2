@@ -1,0 +1,18 @@
+uuid: b2218b40-eb48-4503-b0a9-3b8757b63c38
+langcode: en
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.elasticsearch_recurso
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.elasticsearch_recurso
+target_entity_type_id: paragraph
+target_bundle: elasticsearch_recurso
+default_langcode: site_default
+language_alterable: false

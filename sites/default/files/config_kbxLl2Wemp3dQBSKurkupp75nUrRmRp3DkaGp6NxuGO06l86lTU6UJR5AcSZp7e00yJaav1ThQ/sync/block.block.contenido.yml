@@ -1,0 +1,25 @@
+uuid: 77bdf846-5d22-4e3a-8650-b56359599733
+langcode: es
+status: false
+dependencies:
+  config:
+    - system.menu.contenido
+  module:
+    - system
+  theme:
+    - bootstrap_admin
+id: contenido
+theme: bootstrap_admin
+region: content
+weight: -10
+provider: null
+plugin: 'system_menu_block:contenido'
+settings:
+  id: 'system_menu_block:contenido'
+  label: Contenido
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

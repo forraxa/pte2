@@ -1,0 +1,14 @@
+uuid: c3f2b8c8-fc71-41d5-9c3e-be1b0e60443a
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.all
+  module:
+    - user
+id: user_add_role_action.all
+label: 'Add the all role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: all

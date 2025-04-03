@@ -1,0 +1,22 @@
+uuid: 5c389fc1-b859-48c3-ac73-e7968caade17
+langcode: en
+status: true
+dependencies:
+  theme:
+    - bootstrap_admin
+_core:
+  default_config_hash: Qf2BoIzd9py5AYXZj8fJzCYDyVk1-AWXcu-AqQeDZKA
+id: bootstrap_admin_local_tasks
+theme: bootstrap_admin
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

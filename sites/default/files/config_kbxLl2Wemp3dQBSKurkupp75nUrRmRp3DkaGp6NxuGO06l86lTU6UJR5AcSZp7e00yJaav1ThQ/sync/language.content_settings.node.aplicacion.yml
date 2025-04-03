@@ -1,0 +1,18 @@
+uuid: c1f0382e-7d14-47dd-9a19-0019c122432f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.aplicacion
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.aplicacion
+target_entity_type_id: node
+target_bundle: aplicacion
+default_langcode: site_default
+language_alterable: false

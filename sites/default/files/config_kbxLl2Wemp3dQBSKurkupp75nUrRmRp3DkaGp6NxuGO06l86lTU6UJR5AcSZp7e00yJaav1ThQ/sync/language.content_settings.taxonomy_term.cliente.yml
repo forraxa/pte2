@@ -1,0 +1,18 @@
+uuid: 8c0a058b-6736-4e14-942f-b6eb076a7f8e
+langcode: es
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.cliente
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.cliente
+target_entity_type_id: taxonomy_term
+target_bundle: cliente
+default_langcode: site_default
+language_alterable: false

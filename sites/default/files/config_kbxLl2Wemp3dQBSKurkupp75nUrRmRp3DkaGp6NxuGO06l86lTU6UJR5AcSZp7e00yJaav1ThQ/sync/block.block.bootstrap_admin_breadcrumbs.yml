@@ -1,0 +1,22 @@
+uuid: c204476d-ca1f-46e1-9d58-18b46453e788
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_admin
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: bootstrap_admin_breadcrumbs
+theme: bootstrap_admin
+region: navigation
+weight: -10
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

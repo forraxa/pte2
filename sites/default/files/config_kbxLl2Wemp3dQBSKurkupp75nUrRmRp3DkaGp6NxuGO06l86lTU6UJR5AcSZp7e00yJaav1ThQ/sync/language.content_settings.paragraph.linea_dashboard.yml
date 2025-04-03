@@ -1,0 +1,18 @@
+uuid: e7d5566c-c7e4-430d-8804-89b0aebbcd9f
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.linea_dashboard
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.linea_dashboard
+target_entity_type_id: paragraph
+target_bundle: linea_dashboard
+default_langcode: site_default
+language_alterable: false

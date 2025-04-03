@@ -1,0 +1,11 @@
+uuid: 54cea55d-750d-4a9a-9652-91f2a8b8841f
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.estrategia
+id: node.estrategia
+target_entity_type_id: node
+target_bundle: estrategia
+default_langcode: site_default
+language_alterable: false

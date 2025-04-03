@@ -1,0 +1,18 @@
+uuid: ad12064c-51f3-4827-9df9-20f37a134a9c
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.recurso
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.recurso
+target_entity_type_id: node
+target_bundle: recurso
+default_langcode: site_default
+language_alterable: false

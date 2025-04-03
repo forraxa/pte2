@@ -1,0 +1,18 @@
+uuid: 06784700-8f02-4fbf-bd96-b58f0970a66e
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.tabla
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.tabla
+target_entity_type_id: paragraph
+target_bundle: tabla
+default_langcode: site_default
+language_alterable: false

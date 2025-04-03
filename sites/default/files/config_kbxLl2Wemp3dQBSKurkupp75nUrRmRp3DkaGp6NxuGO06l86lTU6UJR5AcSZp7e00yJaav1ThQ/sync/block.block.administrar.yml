@@ -1,0 +1,33 @@
+uuid: 5b692913-9cd4-434e-a30e-91beb07c2603
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.administrar
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap_admin
+id: administrar
+theme: bootstrap_admin
+region: sidebar_first
+weight: -10
+provider: null
+plugin: 'system_menu_block:administrar'
+settings:
+  id: 'system_menu_block:administrar'
+  label: Administrar
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      administrator: administrator

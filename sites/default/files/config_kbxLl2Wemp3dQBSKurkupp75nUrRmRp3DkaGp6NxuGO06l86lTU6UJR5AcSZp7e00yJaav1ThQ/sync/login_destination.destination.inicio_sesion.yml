@@ -1,0 +1,16 @@
+uuid: 6009409d-543c-4fbc-9f3f-3394f0bb2579
+langcode: es
+status: true
+dependencies: {  }
+name: inicio_sesion
+label: 'inicio sesion'
+triggers:
+  login: login
+destination_path: 'internal:/estrategia'
+pages_type: 0
+pages: ''
+language: ''
+roles:
+  authenticated: authenticated
+weight: 0
+enabled: false

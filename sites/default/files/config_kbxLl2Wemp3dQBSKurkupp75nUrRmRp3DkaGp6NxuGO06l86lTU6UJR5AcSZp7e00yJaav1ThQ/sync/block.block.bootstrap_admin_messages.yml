@@ -1,0 +1,22 @@
+uuid: 0633b2ec-c475-4289-9c96-34e70256d620
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_admin
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: bootstrap_admin_messages
+theme: bootstrap_admin
+region: highlighted
+weight: -10
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

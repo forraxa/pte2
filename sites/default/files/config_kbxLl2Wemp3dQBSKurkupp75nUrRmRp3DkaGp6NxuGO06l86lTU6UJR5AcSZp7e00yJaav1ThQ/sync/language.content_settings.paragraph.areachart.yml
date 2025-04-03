@@ -1,0 +1,18 @@
+uuid: 8365517f-cd95-4960-a6c2-8a3c83994ca2
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.areachart
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.areachart
+target_entity_type_id: paragraph
+target_bundle: areachart
+default_langcode: site_default
+language_alterable: false

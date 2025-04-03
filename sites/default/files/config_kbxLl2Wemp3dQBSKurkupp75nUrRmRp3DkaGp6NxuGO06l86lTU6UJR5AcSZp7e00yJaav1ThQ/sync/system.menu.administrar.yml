@@ -1,0 +1,8 @@
+uuid: b3ada83e-80db-4128-8b71-c1ce29c199d0
+langcode: es
+status: true
+dependencies: {  }
+id: administrar
+label: Administrar
+description: 'Grupos, añadir datasets y conexiones'
+locked: false

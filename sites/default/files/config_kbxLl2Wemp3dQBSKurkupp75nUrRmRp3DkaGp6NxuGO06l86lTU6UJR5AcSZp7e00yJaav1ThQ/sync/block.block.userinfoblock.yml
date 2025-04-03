@@ -1,0 +1,24 @@
+uuid: 6daef62b-8b56-4649-9899-5c209503832a
+langcode: es
+status: false
+dependencies:
+  module:
+    - block_user_info
+  theme:
+    - bootstrap_admin
+id: userinfoblock
+theme: bootstrap_admin
+region: navigation_collapsible
+weight: -10
+provider: null
+plugin: block_user_info
+settings:
+  id: block_user_info
+  label: 'User Info Block'
+  label_display: '0'
+  provider: block_user_info
+  view_mode: default
+  target: current
+  user: null
+  class: user_info
+visibility: {  }

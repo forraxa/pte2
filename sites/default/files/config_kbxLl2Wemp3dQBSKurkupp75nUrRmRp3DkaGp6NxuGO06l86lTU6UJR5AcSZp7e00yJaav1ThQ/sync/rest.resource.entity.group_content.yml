@@ -1,0 +1,18 @@
+uuid: b5802949-685e-4b9b-a7b1-f44194758cb5
+langcode: es
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - group
+    - serialization
+id: entity.group_content
+plugin_id: 'entity:group_content'
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - basic_auth

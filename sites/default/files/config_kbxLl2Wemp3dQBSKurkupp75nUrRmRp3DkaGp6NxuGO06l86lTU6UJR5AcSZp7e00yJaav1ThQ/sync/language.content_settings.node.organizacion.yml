@@ -1,0 +1,18 @@
+uuid: 869be8ab-cc99-4c2e-ab1e-fc844d35d6c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.organizacion
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.organizacion
+target_entity_type_id: node
+target_bundle: organizacion
+default_langcode: site_default
+language_alterable: false

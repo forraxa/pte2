@@ -1,0 +1,18 @@
+uuid: 95015707-6cfa-4381-aef4-af75a51210a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dashboard
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: node.dashboard
+target_entity_type_id: node
+target_bundle: dashboard
+default_langcode: site_default
+language_alterable: false

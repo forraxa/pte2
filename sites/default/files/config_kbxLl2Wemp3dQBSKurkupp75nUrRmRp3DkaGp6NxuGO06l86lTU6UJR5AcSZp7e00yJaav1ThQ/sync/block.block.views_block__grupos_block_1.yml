@@ -1,0 +1,34 @@
+uuid: 536d0978-91c8-4d63-a562-6a2647e5797a
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.grupos
+  module:
+    - user
+    - views
+  theme:
+    - bootstrap_admin
+id: views_block__grupos_block_1
+theme: bootstrap_admin
+region: sidebar_first
+weight: -9
+provider: null
+plugin: 'views_block:grupos-block_1'
+settings:
+  id: 'views_block:grupos-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      content_editor: content_editor
+      client_admin: client_admin
+      administrator: administrator

@@ -1,0 +1,24 @@
+uuid: 0d103466-3f3a-4ebb-856a-ef54be706dad
+langcode: es
+status: false
+dependencies:
+  config:
+    - views.view.usuario_actual
+  module:
+    - views
+  theme:
+    - bootstrap_admin
+id: views_block__usuario_actual_block_1
+theme: bootstrap_admin
+region: sidebar_first
+weight: -6
+provider: null
+plugin: 'views_block:usuario_actual-block_1'
+settings:
+  id: 'views_block:usuario_actual-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: '1'
+visibility: {  }

@@ -1,0 +1,25 @@
+uuid: 83e5113a-eee8-40ed-8213-908ebe68a5d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - bootstrap_admin
+_core:
+  default_config_hash: d-0emr1mEq7sFKDu5RHUJckvNk62hvIZdRwPEfnJyGg
+id: bootstrap_admin_branding
+theme: bootstrap_admin
+region: navigation
+weight: -11
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

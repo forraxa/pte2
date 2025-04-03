@@ -1,0 +1,18 @@
+uuid: fbc48a0c-75ad-40ce-aff7-679de8ab44e8
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.servicio_rest_recurso
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.servicio_rest_recurso
+target_entity_type_id: paragraph
+target_bundle: servicio_rest_recurso
+default_langcode: site_default
+language_alterable: false

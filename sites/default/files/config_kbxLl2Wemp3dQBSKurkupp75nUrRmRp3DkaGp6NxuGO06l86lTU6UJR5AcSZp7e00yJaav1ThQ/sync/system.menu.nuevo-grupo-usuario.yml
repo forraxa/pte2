@@ -1,0 +1,8 @@
+uuid: 67700c1e-82ec-422a-bfba-353e8e8ac375
+langcode: es
+status: true
+dependencies: {  }
+id: nuevo-grupo-usuario
+label: 'Nuevo grupo usuario'
+description: 'Crear nuevos grupos y usuarios'
+locked: false

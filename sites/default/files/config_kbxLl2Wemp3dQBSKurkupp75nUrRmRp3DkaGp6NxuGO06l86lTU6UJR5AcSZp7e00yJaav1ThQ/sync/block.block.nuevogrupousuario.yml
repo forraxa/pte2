@@ -1,0 +1,33 @@
+uuid: b5724ce3-9afb-4b38-83e0-c8ac6d40c266
+langcode: es
+status: true
+dependencies:
+  config:
+    - system.menu.nuevo-grupo-usuario
+  module:
+    - system
+    - user
+  theme:
+    - bootstrap_admin
+id: nuevogrupousuario
+theme: bootstrap_admin
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:nuevo-grupo-usuario'
+settings:
+  id: 'system_menu_block:nuevo-grupo-usuario'
+  label: 'Nuevo grupo usuario'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      client_admin: client_admin

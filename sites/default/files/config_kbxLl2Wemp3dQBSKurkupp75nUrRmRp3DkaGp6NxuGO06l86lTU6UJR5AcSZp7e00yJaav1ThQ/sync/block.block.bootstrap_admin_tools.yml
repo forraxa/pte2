@@ -1,0 +1,27 @@
+uuid: 9fabce58-ba17-49c1-b881-13ea389bf473
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - bootstrap_admin
+_core:
+  default_config_hash: TszJ7dH_11Qjmo_OpMzqznaED4Bvy1XfVnBzTC9LZXE
+id: bootstrap_admin_tools
+theme: bootstrap_admin
+region: content
+weight: -3
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Tools
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

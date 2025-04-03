@@ -1,0 +1,18 @@
+uuid: fda2f685-544c-4015-b68e-6ae7e144321c
+langcode: es
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.piechart
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.piechart
+target_entity_type_id: paragraph
+target_bundle: piechart
+default_langcode: site_default
+language_alterable: false

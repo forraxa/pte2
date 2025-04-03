@@ -1,0 +1,14 @@
+uuid: 599f8128-b825-452d-a266-28d387419da9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.noticia
+  module:
+    - node
+id: all
+label: all
+weight: -6
+is_admin: null
+permissions:
+  - 'edit any noticia content'

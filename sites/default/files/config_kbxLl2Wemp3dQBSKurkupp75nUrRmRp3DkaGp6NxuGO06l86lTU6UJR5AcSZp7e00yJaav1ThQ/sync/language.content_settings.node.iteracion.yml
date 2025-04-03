@@ -1,0 +1,11 @@
+uuid: 8dac474b-c7b6-48fd-af94-48e2c5a973f5
+langcode: es
+status: true
+dependencies:
+  config:
+    - node.type.iteracion
+id: node.iteracion
+target_entity_type_id: node
+target_bundle: iteracion
+default_langcode: site_default
+language_alterable: false

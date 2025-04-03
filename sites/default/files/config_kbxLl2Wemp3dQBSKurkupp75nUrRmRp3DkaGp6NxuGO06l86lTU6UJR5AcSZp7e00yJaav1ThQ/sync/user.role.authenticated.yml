@@ -1,0 +1,49 @@
+uuid: 35d9503c-0da0-4f76-9ee2-e57c94b5df8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.basic_html
+    - node.type.conexion
+    - node.type.dataset
+    - node.type.organizacion
+    - taxonomy.vocabulary.tags
+  module:
+    - comment
+    - contact
+    - content_translation
+    - contextual
+    - file
+    - filter
+    - search
+    - shortcut
+    - system
+    - taxonomy
+    - toolbar
+_core:
+  default_config_hash: I44QAB4es39lNzMQWiJLq2dfjX7VRSOzT_5KzAcUq_M
+id: authenticated
+label: 'Authenticated user'
+weight: -9
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'create content translations'
+  - 'create terms in tags'
+  - 'edit own comments'
+  - 'edit terms in tags'
+  - 'post comments'
+  - 'search content'
+  - 'skip comment approval'
+  - 'translate conexion node'
+  - 'translate dataset node'
+  - 'translate organizacion node'
+  - 'update content translations'
+  - 'use text format basic_html'
+  - 'view the administration theme'
